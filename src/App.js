@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Routes from './routes';
 
 import './styles.css'
 import Header from './Components/Header'
@@ -18,7 +18,7 @@ function App() {
   const App = () => (
     <div className="App">
       <Header />
-      <Main />
+      <Routes />
     </div>
   )
 
